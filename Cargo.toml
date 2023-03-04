@@ -1,0 +1,13 @@
+[package]
+name = "demo-cc-rs-riscv64gc"
+version = "0.1.0"
+edition = "2021"
+
+[build-dependencies]
+cc = "1.0.79"
+
+[dependencies]
+libc = "0.2.139"
+panic-abort = "0.3.2"
+
+[workspace]
